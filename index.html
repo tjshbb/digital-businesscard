@@ -1,130 +1,311 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-  <link rel="stylesheet" href="main.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
+  <head>
 
-<body>
-	<section class="bg-color-grey banner">
-		<div class="container">
-			<div class="row">
-				<div class="col"></div>
-				<div class="col is-5">
-					<img class="profile-pic" src="preston.jpg" alt="Profile Picture">
-				</div>
-				<div class="col"></div>
-			</div>
-		</div>
-	</section>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Taylor Scott">
 
-	<section class="bg-color-white primary-info">
-		<div class="container">
-			<div class="row name-title-company">
-				<div class="col is-6">
-					<p class="text-name">Preston Lim</p>
-					<p class="text-title-company">Associate Software Engineer</p>
-					<p class="text-title-company">Data Science Division, GovTech</p>
-				</div>
-				<div class="col">
-					<img src="assets/govtech-logo-blue.svg" alt="Company Logo">
-				</div>
-			</div>
-		</div>
-	</section>
+    <title>Business Card - Taylor Scott</title>
 
-	<section class="bg-color-white secondary-info">
-		<a href="mailto:preston@data.gov.sg">
-			<div class="container">
-				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-email.svg" alt="Email Icon"">
-					</div>
-					<div class="col is-8">
-						<p class="text-detail">preston@data.gov.sg</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
-					</div>
-				</div>
-			</div>
-		</a>
-	</section>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<section class="bg-color-white secondary-info">
-		<a href="tel:+6591234567">
-			<div class="container">
-				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-phone.svg" alt="Phone Icon"">
-					</div>
-					<div class="col is-8">
-						<p class="text-detail">(+65) 9123 4567</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
-					</div>
-				</div>
-			</div>
-		</a>
-	</section>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-	<section class="bg-color-white secondary-info">
-		<a href="https://www.tech.gov.sg">
-			<div class="container">
-				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-website.svg" alt="Website Icon"">
-					</div>
-					<div class="col is-8">
-						<p class="text-detail">tech.gov.sg</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
-					</div>
-				</div>
-			</div>
-		</a>
-	</section>
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-	<section class="bg-color-white secondary-info">
-		<a href="https://www.google.com.sg/maps/place/GovTech+Hive/@1.2998708,103.7871504,17z/
-		data=!3m1!4b1!4m5!3m4!1s0x31da1a457344a501:0x2202a995a6abc728!8m2!3d1.2998708!4d103.7893391">
-			<div class="container">
-				<div class="row detail">
-					<div class="col">
-						<img src="assets/icon-address.svg" alt="Address Icon"">
-					</div>
-					<div class="col is-8">
-						<p class="text-detail">1 Fusionopolis, Sandcrawler, #09-01, 138577</p>
-					</div>
-					<div class="col">
-						<img src="assets/right-arrow.svg" alt="Right Arrow" height="50%" width="40%">
-					</div>
-				</div>
-			</div>
-		</a>
-	</section>
+  </head>
 
-	<section class="bg-color-white bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col"></div>
-				<div class="col is-5">
-					<div class="button">
-						<a href="user.vcf">
-							<p class="button">Download</p>
-						</a>
-					</div>
-				</div>
-				<div class="col"></div>
-			</div>
-		</div>
-	</section>
+  <body id="page-top">
 
-</body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Taylor Scott</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/taylorScott.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Taylor
+            <span class="text-primary">Scott</span>
+          </h1>
+          <div class="subheading mb-5">2087 Tavel Ct. · Maryland Heights, MO 63141 · (314) 825-6058 ·
+            <a href="mailto:scott.t.3042@gmail.com">scott.t.3042@gmail.com</a>
+          </div>
+          <!-- an about me intro
+          <p class="lead mb-5"></p>
+          -->
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/tjshbb/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/tjshbb">
+              <i class="fab fa-github"></i>
+            </a>
+            <!-- twitter link if I ever get one
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            -->
+            <a href="https://www.facebook.com/taylor.scott.1654700">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">MATH TEACHER/TUTOR</h3>
+              <div class="subheading mb-3">Univ. of Missouri-St. Louis</div>
+              <p>Student teacher for Math-1020, assisting Prof. Qiang Dotzel at UMSL. Primary responsibilities include teaching, grading, tutoring, lesson planning.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">CUSTOMER SERVICE REPRESENTATIVE</h3>
+              <div class="subheading mb-3">Schnucks Markets</div>
+              <p>Primary responsibilities include checking, MoneyGram, lottery, bookeeping, and customer service.  Selected as “Teammate of the Month” multiple times for exceptional customer service.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2012 - Present</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Missouri-St. Louis</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Cybersecurity Track</div>
+              <div>Minor in Mathematics</div>
+              <div>GPA: 3.23</div>
+              <p>Major GPA: 4.0</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2014 - December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Parkway North High School</h3>
+              <p>GPA: 3.14</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2008 - May 2012</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Web Design &amp; Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-js-square"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-node-js"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-bootstrap-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-mysql-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-slack-plain"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Programming Languages</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="devicon-c-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-cplusplus-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-csharp-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-python-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-java-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-github-plain"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Operating Systems</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="devicon-linux-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-redhat-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-ubuntu-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-debian-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-windows8-plain"></i>
+            </li>
+          </ul>
+
+          <!-- when i can think of something to put here
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+        -->
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a computer scientist, I enjoy most of my time reading, problem solving, and cooking. I use <a href="http://open.kattis.com/problems">open.kattis.com</a> to challenge myself to solve coding problems and keep me on top of my game. When reading I tend to lean towards classics.  I have recently finished, Dante's Inferno, Beowolf and I am currently on Count of Monte Cristo.</p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Cybersecurity - UMSL Certification</li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                Advance Leadership - UMSL Certification</li>
+              <li>
+                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  National Society Of Leadership and Success(NSLS) Member</li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                Top 50 - IBM Master the Mainframe 2016</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - University Of Missouri-St. Louis - Hackathon 2017</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2018</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
 
 </html>
